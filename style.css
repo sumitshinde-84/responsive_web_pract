@@ -138,7 +138,7 @@ button:hover{
 
 .celibarte .content{
     max-width: 100%;
-    padding:0 .5em;
+    padding:0 .6em;
     
 }
 
@@ -152,7 +152,7 @@ button:hover{
 } 
 
 .celibarte .description{
-    font-size:1.2rem ;
+    font-size:1.1rem ;
     font-family: var(--ff-secondary);
     color: var(--clr-neutral);
 }
