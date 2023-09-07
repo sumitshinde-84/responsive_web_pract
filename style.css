@@ -104,9 +104,9 @@ button:hover{
 
  .content img{
    margin-left: auto;
-   width: 300px;
+   width: 270px;
    cursor: pointer;
-   margin-right: auto;
+   
 }
 
 #primary-divider{
@@ -126,7 +126,7 @@ button:hover{
     background-color: var(--clr-primary);
     color: var(--clr-neutral);
     margin-top: -1.5em;
-    padding: 3.5em;
+    
     height: 596px;
     width: 100%;
     display: flex;
@@ -137,23 +137,29 @@ button:hover{
 }
 
 .celibarte .content{
-    max-width: 593px;
-    justify-self: left;
+    max-width: 100%;
+    padding:0 .5em;
+    
 }
 
 .celibarte .title{
-    font-size: 5.5vw;
+    width: 100%;
+    font-size: 2.3rem;
     font-family: var(--ff-primary);
     color: var(--clr-neutral);
+    margin-bottom: .5em;
+    
 } 
 
 .celibarte .description{
-    font-size:1.2vw ;
+    font-size:1.2rem ;
     font-family: var(--ff-secondary);
     color: var(--clr-neutral);
 }
 
-
+ .desc-1{
+    margin-bottom: 1em;
+}
 
 
 @media (max-width:900px){
@@ -209,6 +215,29 @@ button:hover{
         margin-right: -3em;
         margin-top: -1em;
     }
+
+    .celibarte .content{
+        max-width: 100%;
+        margin-right: auto; 
+        margin-left: 2em;
+    }
+    
+    .celibarte .title{
+        width: 100%;
+        font-size: 4.4rem;
+        font-family: var(--ff-primary);
+        color: var(--clr-neutral);
+        margin-bottom: .5em;
+        
+    } 
+    
+    .celibarte .description{
+        font-size:1.2rem ;
+        font-family: var(--ff-secondary);
+        color: var(--clr-neutral);
+    }
+    
+    
  
     #main-img{
      
