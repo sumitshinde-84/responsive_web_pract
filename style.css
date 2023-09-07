@@ -79,8 +79,8 @@ body{
 }
 
 .description{
-    font-size: 1.1rem;
-    width: 30ch;
+    font-size: 1rem;
+    width: 33ch;
     color: var(--clr-primary);
     font-family: var(--ff-secondary);
    
