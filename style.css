@@ -7,6 +7,12 @@
 
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 
 header{
@@ -45,6 +51,7 @@ body{
     background-color: var(--clr-neutral);
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .intro{
@@ -121,10 +128,11 @@ button:hover{
     margin-top: -1.5em;
     padding: 3.5em;
     height: 596px;
-    width: 100vw;
+    width: 100;
     display: flex;
     align-items: center;
     justify-content: center;
+   
 
 }
 
