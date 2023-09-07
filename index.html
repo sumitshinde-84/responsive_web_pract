@@ -69,7 +69,29 @@
                 </picture>
             </div>
         </div>
+        <img id="secondary-divider" src="/images/secondary-divider.svg" alt="">
+        <div class="map">
+            <h1 class="map-title title">Come and visit the <br>
+             Miss Cupcake store</h1>
+             <picture class="main-img">
+                <source srcset="images/map-2x.png" media="(min-width:550px)">
+                <img id="map-img" src="images/map.png" alt="">
+            </picture>
+        </div>
     </main>
+   
+
+    <script>
+        window.addEventListener("resize", function () {
+            if (window.innerWidth < 558) {
+                document.querySelector(".map-title").innerHTML = "Celebrating the <br>little things";
+              
+            } else {
+                document.querySelector(".map-title").innerHTML = "Come and visit the<br>Miss Cupcake store";
+              
+            }
+        });
+    </script>
 </body>
 
 </html>
