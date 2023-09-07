@@ -120,7 +120,8 @@ button:hover{
 #secondary-divider{
     width: 100%;
     z-index: -1;
-    position: relative;       
+    position: relative; 
+    margin-top: -5em;      
 }
 
 
