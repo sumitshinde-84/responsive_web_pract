@@ -211,13 +211,15 @@ button:hover{
 
 .map{
     background-color: var(--clr-primary);
-    height: 724px;
+    min-height: 1400px;
     display:flex;
     flex-direction: column;
     padding-top: 2em;
     margin-top: -.5em;
     
 }
+
+
 
 .map .title{
  font-size: 2.5rem;
@@ -234,6 +236,98 @@ button:hover{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+
+
+
+.inbox-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5em;
+
+}
+
+.inbox-form h2{
+    margin-right: 8em;
+    font-size: 2rem;
+    font-family: var(--ff-primary);
+    color: var(--clr-neutral);
+}
+
+.inbox-form input{
+    width: 290px;
+    height: 32px;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: aquamarine;
+    border-style: solid;
+    border-radius: .2em;
+    margin-top: .5em;
+    outline: none;
+    color: var(--clr-neutral);
+   
+}
+
+.inbox-form input::placeholder{
+    color: var(--clr-neutral);
+}
+
+
+.inbox-form form{
+    margin-right: 6em;
+}
+
+.inbox-form button{
+    background-color: var(--clr-neutral);
+    width: 106px;
+    height: 36px;
+    color: var(--clr-primary);
+    font-family:var(--ff-secondary) ;
+    
+}
+
+
+.label-para{
+    margin-top: 1.5em;
+    
+}
+
+label{
+    font-family: var(--ff-secondary);
+    color: var(--clr-neutral);
+    font-size: 1.125rem;
+    margin-top: 1em;
+}
+
+.links{
+    display: grid;
+    grid-template-rows:1fr;
+    margin-left: 2em;
+    gap: 20px;
+    
+}
+
+.links li{
+    list-style: none;
+    font-size: 1.125rem;
+    font-family: var(--ff-secondary);
+    color: var(--clr-neutral);
+    font-weight: normal;
+}
+
+
+.copyright-text{
+    color: var(--clr-neutral);
+    margin-top: 2em;
+    margin-left: 2em
+}
+
+
 
 
 
@@ -364,9 +458,11 @@ button:hover{
 
     .map{
         background-color: var(--clr-primary);
+        min-height: 1600px;
         height: 724px;
         display:flex;
         flex-direction: column;
+        margin-top: -2em;
         
     }
     
@@ -384,6 +480,94 @@ button:hover{
         margin-left: auto;
         margin-right: auto;
     }
+
+    .inbox-form{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5em;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2.5em;
+    
+    }
+    .inbox-form form{
+        margin-right: 0;
+    }
+
+    .inbox-form h2{
+        font-size: 2rem;
+        font-family: var(--ff-primary);
+        color: var(--clr-neutral);
+        margin-left: -2em
+    }
+    
+    .inbox-form input{
+        width: 350px;
+        height: 32px;
+        background-color: transparent;
+        border-width: 1px;
+        border-color: aquamarine;
+        border-style: solid;
+        border-radius: .2em;
+        padding-left: .5em;
+        outline: none;
+        color: var(--clr-neutral);
+        margin-right: 1em;
+    }
+    
+    .inbox-form input::placeholder{
+        color: var(--clr-neutral);
+    }
+    
+    
+    .inbox-form form{
+        margin-right: 6em;
+    }
+    
+    .inbox-form button{
+        background-color: var(--clr-neutral);
+        width: 106px;
+        height: 36px;
+        color: var(--clr-primary);
+        font-family:var(--ff-secondary) ;
+        
+    }
+    
+    
+    .label-para{
+        margin-top: 1.5em;
+        
+    }
+    
+    label{
+        font-family: var(--ff-secondary);
+        color: var(--clr-neutral);
+        font-size: 1.125rem;
+        margin-top: 1em;
+    }
+    
+    .links{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 3em;
+        
+    }
+    
+    .links li{
+        list-style: none;
+        font-size: 1.125rem;
+        font-family: var(--ff-secondary);
+        color: var(--clr-neutral);
+        font-weight: normal;
+    }
+    
+    
+    .copyright-text{
+        color: var(--clr-neutral);
+        margin-top: 2em;
+        margin-left: 3em
+    }
+    
 }
 
 
