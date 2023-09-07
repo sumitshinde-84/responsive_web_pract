@@ -175,7 +175,7 @@ button:hover{
     margin-left: auto;
     margin-right: auto;
     width: 93%;
-    margin-top: -8em;
+    margin-top: -7em;
 }
 
 .feature{
@@ -224,6 +224,7 @@ button:hover{
  font-family: var(--ff-primary);
  color: var(--clr-neutral);
  margin-left: 0.7em;
+ margin-top: 2em;
  margin-bottom: 1em;
 
 }
@@ -316,7 +317,7 @@ button:hover{
         margin-left: auto;
         margin-right: auto;
         width: 93%;
-        margin-top: -19em;
+        margin-top: -15em;
     }
     
     
